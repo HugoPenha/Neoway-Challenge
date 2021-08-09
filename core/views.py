@@ -13,3 +13,7 @@ def fill_order_database(request):
         raise InvalidMissingFile
 
     return Response()
+
+@api_view(['GET'])
+def all_orders(request):
+    return Response(get_all_orders())

@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 class Order(models.Model):
-    cpf = models.CharField(max_length=14, null=False)
+    cpf = models.CharField(max_length=20, null=False)
     private = models.BooleanField()
     incomplete = models.BooleanField()
     last_purchase_date = models.DateField(blank=True, null=True)
