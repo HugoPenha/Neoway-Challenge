@@ -8,12 +8,12 @@ Aplicação para manipulação de dados e persistência num banco de dados relac
 - Receber um arquivo TXT ou CSV e registrar dados na base com os tratamentos desejados
 - Realizar higienização dos dados após salvamento na base
 - Validar os CPFs/CNPJs contidos registrando apenas os válidos
-- Containerizar da aplicação
+- Containerizar aplicação
 
 ## File Structure
 
 - Views - Requests do projeto 
-- Services - Responsável por contes as funções de manipulação e processamento dos dados
+- Services - Responsável por conter as funções de manipulação e processamento dos dados
 - Signals - Responsável por realizar a higenização dos dados após o salvamento dos mesmos na base
 - Models - Representação da tabela no banco de dados 
 - Exceptions - Exceções e mensagens de erro
